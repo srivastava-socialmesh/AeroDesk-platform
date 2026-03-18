@@ -64,7 +64,9 @@ const approvalQueue = [
   },
 ]
 
-const priorityColors = {
+type priority ='urgent' | 'high' | 'medium' | 'low'
+
+const priorityColors: Record<string, string> = {
   urgent: 'bg-red-100 text-red-800',
   high: 'bg-orange-100 text-orange-800',
   medium: 'bg-yellow-100 text-yellow-800',
