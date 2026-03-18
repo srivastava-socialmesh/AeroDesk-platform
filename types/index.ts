@@ -5,10 +5,10 @@ AERODESK PLATFORM CORE
 export type PlatformRole =
   | "admin"
   | "operator"
-  | "agency"
+  | "travel-agency"
   | "corporate"
   | "hotel"
-  | "individual"
+  | "customer"
 
 export type UserStatus =
   | "active"
@@ -68,14 +68,14 @@ USER ROLES
 ========================================================= */
 
 export type UserRole =
-| "Admin"
-| "Operator"
-| "Travel Agency"
-| "Hotel Partner"
-| "Corporate Admin"
+| "admin"
+| "operator"
+| "travel-agency"
+| "hotel"
+| "corporate"
 | "Requester"
 | "CTD Admin"
-| "Customer"
+| "customer"
 
 export type UserStatus =
   | "Active"
