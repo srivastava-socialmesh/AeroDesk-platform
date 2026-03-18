@@ -12,9 +12,10 @@ export type PlatformRole =
 
 export type UserStatus =
   | "active"
-  | "inactive"
+  | "approved"
+  | "pending"
   | "suspended"
-  | "blocked"
+  | "rejected"
 
 export type FirmRole =
   | "admin"
@@ -76,13 +77,6 @@ export type UserRole =
 | "Requester"
 | "CTD Admin"
 | "customer"
-
-export type UserStatus =
-  | "Active"
-  | "Approved"
-  | "Pending"
-  | "Suspended"
-  | "Rejected"
 
 export type FirmRole =
   | "EMPLOYEE"
