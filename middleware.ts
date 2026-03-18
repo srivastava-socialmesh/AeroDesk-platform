@@ -1,9 +1,3 @@
-
----
-
-## 🛡️ **FILE #9: middleware.ts** (Create in root folder)
-
-```typescript
 import { createMiddlewareClient } from '@supabase/auth-helpers-nextjs'
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
