@@ -70,8 +70,6 @@ const emptyLegs = [
   },
 ]
 
-// Add the type annotation here
-
 type LegStatus = 'draft' | 'published' | 'expired' | 'cancelled'
 
 const statusColors: Record<string, string> = {
@@ -81,9 +79,6 @@ const statusColors: Record<string, string> = {
   cancelled: 'bg-red-100 text-red-800',
 }
 
-// ... rest of your code
-
-// The usage at line 122 is now safe
 <Badge className={statusColors[leg.status]}>
   {leg.status}
 </Badge>
